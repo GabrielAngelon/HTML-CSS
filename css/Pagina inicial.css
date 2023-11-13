@@ -1,0 +1,106 @@
+/* Padrão da pagina toda */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5; 
+  margin-top: 0px;
+}
+
+/* Cabeçalho */
+
+header {
+  background-color: rgb(43, 200, 184);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+}
+
+/* Imagem */
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  width: 20%;
+  padding-top: 45px;
+}
+
+/* Configuração do cabeçalho */
+
+a {
+  color:rgb(43, 200, 184)
+}
+
+a:hover {
+  color: rgb(28, 133, 123)
+}
+
+a:active {
+  color: rgb(151, 151, 151)
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Letras chamativas, meio do site */
+
+.banner {
+  background-image: url('banner.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  padding: 0 20px;
+}
+
+.banner h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  text-align: center;
+  color:rgb(43, 200, 184)
+}
+
+.banner p {
+  font-size: 24px;
+  margin-bottom: 40px;
+  text-align: center;
+  color:rgb(43, 200, 184)
+}
+
+/* Botão de agendar consulta */
+
+.cta-button {
+  background-color: #fff;
+  border: none;
+  color: #333;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-align: center
+}

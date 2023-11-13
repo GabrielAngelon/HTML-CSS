@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>C.G.S.I.</title>
+    <link href="./css/Cadastro.css" rel="stylesheet">
+    <link rel="website icon" type="png" href="./imagens/2.jpg">
+  </head>
+  <body>
+    <header>
+      <h1>Cadastro</h1>
+      <nav>
+        <ul>
+            <li><a href="Pagina inicial.html">Pagina inicial</a></li>
+            <li><a href="Serviços.html">Serviços</a></li>
+            <li><a href="Sobre Nós.html">Sobre nós</a></li>
+        </ul>
+      </nav>
+    </header>
+        <img src="./imagens/Logotipo.jpg" alt="Logotipo">
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <p>Por favor, preencha este formulário com as informações necessárias.</p>
+      </fieldset>
+      <fieldset>
+        <label for="first-name">Digite seu primeiro nome: <input id="first-name" name="first-name" type="text" required /></label>
+        <label for="last-name">Digite seu segundo nome: <input id="last-name" name="last-name" type="text" required /></label>
+        <label for="email">Seu Email: <input id="email" name="email" type="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Por favor, insira um endereço de e-mail válido." oninput="validarEmail()" /></label>
+        <label for="new-password">Criar uma nova senha: <input id="new-password" name="new-password" type="password" required /></label>
+      </fieldset>
+      <fieldset>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" required/> Atendimento publico</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" required/> Atendimento Privado</label>
+        <label for="terms-and-conditions"><input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> Eu concordo com os <a href="https://www.freecodecamp">termos e condições</a></label>
+      </fieldset>
+      <fieldset>
+        <h3>Opções Opcionais:</h3>
+        <label for="profile-picture">Carregue uma foto de perfil: <input id="profile-picture" type="file" name="file" /></label>
+        <label for="age">Informe sua idade (anos): <input id="age" type="number" name="age" min="18" max="120" /></label>
+        <label for="referrer">Como você ficou sabendo sobre nós?
+          <select id="referrer" name="referrer">
+            <option value="">(selecione)</option>
+            <option value="1">Noticias</option>
+            <option value="2">YouTube</option>
+            <option value="3">Forum</option>
+            <option value="4">Outros</option>
+          </select>
+        </label>
+        <!--
+        <label for="bio">Informações adicionais:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Eu gosto de viajar..."></textarea>
+        </label>
+        -->
+      </fieldset>
+      <input type="submit" value="Cadastrar-se" />
+    </form>
+  </body>
+</html>

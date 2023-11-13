@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    /* background-image: url(imagens/medicos.jpg); */
+  }
+  
+  header {
+    background-color: rgb(43, 200, 184);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 20%;
+    padding-top: 45px;
+  }
+
+  a {
+    color:rgb(43, 200, 184)
+  }
+
+  a:hover {
+    color: rgb(28, 133, 123)
+  }
+  
+  a:active {
+    color: rgb(151, 151, 151)
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding: 0 20px;
+  }
+  
+  .banner h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+    color:rgb(43, 200, 184)
+  }
+  
+  .banner p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    text-align: center;
+    color:rgb(43, 200, 184);
+  }
+  
+  .cta-button {
+    background-color: #fff;
+    border: none;
+    color: #333;
+    font-size: 25px;
+    padding: 10px 20px;
+    text-align: center;
+  }
+
+  .services, footer {
+    color: #333;
+    font-size: 20px;
+    padding: 0px 20px;
+    text-align: center
+  }
+
+  h2 {
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    color: rgb(43, 200, 184);
+  }
+
+  /* Define o estilo da lista */
+.ul1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Define o estilo dos itens de lista */
+.li1, .li2, .li3, .li4, .li5{
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(43, 200, 184);
+  color: #333;
+  font-size: 18px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+  height: 150px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Define o estilo do ícone do especialista */
+li i {
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+/* Imagem dos serviços */
+
+.img1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 3%;
+}
+
+.p1 {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 15px;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+

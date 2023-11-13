@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 100%;
+    /* background-image: url(imagens/medicos.jpg); */
+  }
+  
+  header {
+    background-color: rgb(43, 200, 184);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    width: 20%;
+    padding-top: 45px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding: 0 20px;
+  }
+  
+  .banner h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+    color:rgb(43, 200, 184)
+  }
+  
+  .banner p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    text-align: center;
+    color:rgb(43, 200, 184)
+  }
+  
+  .cta-button {
+    background-color: #fff;
+    border: none;
+    color: #333;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-align: center
+  }
+
+  /* teste */
+  
+  p {
+    margin: 1em auto;
+    text-align: left;
+    width: 100vw;
+    max-width: 800px;
+    min-width: 300px;
+  }
+
+  form {
+    width: 100vw;
+    max-width: 800px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid rgb(43, 200, 184)
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+
+  input, textarea {
+    background-color: #ffffff;
+    border: 1px solid #0a0a23;
+    color: #000000;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #ffffff;
+    border-color: rgb(0, 0, 0);
+    min-width: 300px;
+  }
+  
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+
+  a {
+    color:rgb(43, 200, 184)
+  }
+
+  a:hover {
+    color: rgb(28, 133, 123)
+  }
+  
+  a:active {
+    color: rgb(151, 151, 151)
+  }
+
